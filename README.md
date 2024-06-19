@@ -11,17 +11,6 @@ Now, the host gives you a choice: you can either stick with your original choice
 
 This program simulates the Monty Hall problem by running a specified number of iterations (in this case, 1000). In each iteration, the program randomly assigns the valuable prize behind one door and the goats behind the other doors. Then, the host randomly chooses one of the doors to open, revealing a goat. The program keeps track of the number of times the player wins if they stick with their initial choice (the "stay" strategy) and the number of times they win if they switch doors (the "switch" strategy).
 
-
-## Usage 
-
-1. Ensure you have Python installed on your system.
-2. Save the code in a Python file with a .py extension, for example, monty_hall.py.
-3. Run the program using the command python monty_hall.py.
-4. The program will simulate the Monty Hall problem for 1000 iterations.
-5. The output will display the number of winning games and the percentage of winning for both the "stay" and "switch" strategies.
-6. Additionally, a pie chart will be displayed to visualize the chances of winning a car for each strategy.
-
-
 ## Explanation
 
 1. The program starts by importing the required modules: random for generating random numbers and matplotlib.pyplot for creating the pie chart.
@@ -39,9 +28,17 @@ This program simulates the Monty Hall problem by running a specified number of i
 13. The program prints the number of winning games and the percentage of winning for each strategy.
 14. Finally, a pie chart is created using matplotlib.pyplot to visualize the chances of winning a car for each strategy.
 
-## Conclusion
+## Usage 
 
-This program demonstrates the Monty Hall problem and provides insights into the winning probabilities associated with the "stay" and "switch" strategies. By running multiple iterations, the program calculates the number of wins and the percentage of wins for each strategy. The pie chart further visualizes the chances of winning a car for each strategy, helping to illustrate the optimal choice when facing the Monty Hall problem.
+1. Ensure you have Python installed on your system.
+2. Save the code in a Python file with a .py extension, for example, monty_hall.py.
+3. Run the program using the command python monty_hall.py.
+4. The program will simulate the Monty Hall problem for 1000 iterations.
+5. The output will display the number of winning games and the percentage of winning for both the "stay" and "switch" strategies.
+6. Additionally, a pie chart will be displayed to visualize the chances of winning a car for each strategy.
+
+
+
 ## Authors
 
 - [@AdnanAliMumtaz](https://www.github.com/AdnanAliMumtaz)
