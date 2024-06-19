@@ -1,7 +1,6 @@
 # Monty Hall Problem Simulation
 This Python script simulates the Monty Hall problem, a probability puzzle based on a game show scenario.
 
-## Description
 The Monty Hall problem is as follows:
 - There are 3 doors; behind one door is a car (a prize) and behind the other two are goats.
 - The player selects one door.
